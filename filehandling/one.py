@@ -1,5 +1,10 @@
-fp=open('one.py','r')
+fp=open('one.txt','r')
 data=fp.read()
-print(data)
+#data1=fp.read(5)
+#data2=fp.readline()
+#data3=fp.readlines()
+#print(data)
+#print(data1)
+##print(data3)
 fp.close()
   
