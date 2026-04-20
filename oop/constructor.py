@@ -3,3 +3,6 @@ class Cons:
         self.name=name
         self.location=location
 a=Cons("harsha","atp")
+
+print(a.name)
+print(a.location)
