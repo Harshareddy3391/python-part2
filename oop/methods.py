@@ -23,15 +23,15 @@ class Student:
     def __init__(self,name):
         self.user_name=name
     def upname(self):
-        self.up_name +=9
+        self.user_name +=9
 
 a1=Student(3)
 a1.upname()
 
 print(a1.__dict__)
 
+ 
 """
-
 class Student:
     def __init__(self, name):
         self.user_name = name
