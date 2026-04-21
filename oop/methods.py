@@ -17,7 +17,7 @@ print(a1.__dict__)
 
 """
 
-
+"""
 
 class Student:
     def __init__(self,name):
@@ -30,7 +30,7 @@ a1.upname()
 
 print(a1.__dict__)
 
- 
+ """
 """
 class Student:
     def __init__(self, name):
@@ -44,3 +44,18 @@ a1 = Student(3)
 a1.upname()
 
 print(a1.__dict__)"""
+
+
+
+
+class Student:
+    def __init__(self,marks):
+        self.marks=marks
+
+    def update(self):
+        self.marks +=20
+
+a1=Student(90)
+a1.update()
+
+print(a1)
