@@ -55,7 +55,7 @@ class Student:
     def update(self):
         self.marks +=20
 
-a1=Student(90)
+a1=Student(100)
 a1.update()
 
-print(a1)
+print(a1.__dict__)
