@@ -1,7 +1,15 @@
 class Student:
 
-    def __init__(self,name):
-        self.name_user=name
+    def __init__(self):
+        self.name_user="HARSHA"
 
-a=Student("harsha")
-print(a.__dict__)
+class Student1(Student):
+
+    def __init__(self):
+        super().__init__()
+
+
+
+s=Student1()
+
+print(s.__dict__)
