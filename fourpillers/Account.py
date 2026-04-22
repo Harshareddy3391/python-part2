@@ -2,7 +2,7 @@ from Bank import Bank
 
 
 
-class Account(Bank):
+class Account:
 
 
 
@@ -20,4 +20,4 @@ class Account(Bank):
 
 
 s=Account('harsha',9000)
-print(s.__dict__)
+ 
