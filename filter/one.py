@@ -1,5 +1,5 @@
 lst=["harsha","vardhan","harish","karthik","kiran"]
-
+"""
 
 def new_data(data):
 
@@ -7,5 +7,7 @@ def new_data(data):
 
 f_data=list(filter(new_data,lst))
 
+"""
 
+f_data=list(filter(lambda verify: verify.endswith('n'),lst))
 print(f_data)
