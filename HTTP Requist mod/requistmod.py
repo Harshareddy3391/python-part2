@@ -30,8 +30,8 @@ for i in json_data["users"]:
         })
       
 
-with open("using_re.json","w") as data:
-    json.dump(emt_list,data,indent=8)
+with open("using_re.json","r") as data:
+    json.dumps(emt_list,data,indent=8)
 
 
     print("new fill will be created successfully")
