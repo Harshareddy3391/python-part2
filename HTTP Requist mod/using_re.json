@@ -1,242 +1,242 @@
-{
-8{
-88"id": 1,
-88"first_name": "Emily",
-88"gender": "female",
-88"age": 29,
-88"lastName": "Johnson",
-88"email": "emily.johnson@x.dummyjson.com"
-8},
-8{
-88"id": 2,
-88"first_name": "Michael",
-88"gender": "male",
-88"age": 36,
-88"lastName": "Williams",
-88"email": "michael.williams@x.dummyjson.com"
-8},
-8{
-88"id": 3,
-88"first_name": "Sophia",
-88"gender": "female",
-88"age": 43,
-88"lastName": "Brown",
-88"email": "sophia.brown@x.dummyjson.com"
-8},
-8{
-88"id": 4,
-88"first_name": "James",
-88"gender": "male",
-88"age": 46,
-88"lastName": "Davis",
-88"email": "james.davis@x.dummyjson.com"
-8},
-8{
-88"id": 5,
-88"first_name": "Emma",
-88"gender": "female",
-88"age": 31,
-88"lastName": "Miller",
-88"email": "emma.miller@x.dummyjson.com"
-8},
-8{
-88"id": 6,
-88"first_name": "Olivia",
-88"gender": "female",
-88"age": 23,
-88"lastName": "Wilson",
-88"email": "olivia.wilson@x.dummyjson.com"
-8},
-8{
-88"id": 7,
-88"first_name": "Alexander",
-88"gender": "male",
-88"age": 39,
-88"lastName": "Jones",
-88"email": "alexander.jones@x.dummyjson.com"
-8},
-8{
-88"id": 8,
-88"first_name": "Ava",
-88"gender": "female",
-88"age": 28,
-88"lastName": "Taylor",
-88"email": "ava.taylor@x.dummyjson.com"
-8},
-8{
-88"id": 9,
-88"first_name": "Ethan",
-88"gender": "male",
-88"age": 34,
-88"lastName": "Martinez",
-88"email": "ethan.martinez@x.dummyjson.com"
-8},
-8{
-88"id": 10,
-88"first_name": "Isabella",
-88"gender": "female",
-88"age": 32,
-88"lastName": "Anderson",
-88"email": "isabella.anderson@x.dummyjson.com"
-8},
-8{
-88"id": 11,
-88"first_name": "Liam",
-88"gender": "male",
-88"age": 30,
-88"lastName": "Garcia",
-88"email": "liam.garcia@x.dummyjson.com"
-8},
-8{
-88"id": 12,
-88"first_name": "Mia",
-88"gender": "female",
-88"age": 25,
-88"lastName": "Rodriguez",
-88"email": "mia.rodriguez@x.dummyjson.com"
-8},
-8{
-88"id": 13,
-88"first_name": "Noah",
-88"gender": "male",
-88"age": 41,
-88"lastName": "Hernandez",
-88"email": "noah.hernandez@x.dummyjson.com"
-8},
-8{
-88"id": 14,
-88"first_name": "Charlotte",
-88"gender": "female",
-88"age": 37,
-88"lastName": "Lopez",
-88"email": "charlotte.lopez@x.dummyjson.com"
-8},
-8{
-88"id": 15,
-88"first_name": "William",
-88"gender": "male",
-88"age": 33,
-88"lastName": "Gonzalez",
-88"email": "william.gonzalez@x.dummyjson.com"
-8},
-8{
-88"id": 16,
-88"first_name": "Avery",
-88"gender": "female",
-88"age": 26,
-88"lastName": "Perez",
-88"email": "avery.perez@x.dummyjson.com"
-8},
-8{
-88"id": 17,
-88"first_name": "Evelyn",
-88"gender": "female",
-88"age": 38,
-88"lastName": "Sanchez",
-88"email": "evelyn.sanchez@x.dummyjson.com"
-8},
-8{
-88"id": 18,
-88"first_name": "Logan",
-88"gender": "male",
-88"age": 32,
-88"lastName": "Torres",
-88"email": "logan.torres@x.dummyjson.com"
-8},
-8{
-88"id": 19,
-88"first_name": "Abigail",
-88"gender": "female",
-88"age": 29,
-88"lastName": "Rivera",
-88"email": "abigail.rivera@x.dummyjson.com"
-8},
-8{
-88"id": 20,
-88"first_name": "Jackson",
-88"gender": "male",
-88"age": 35,
-88"lastName": "Evans",
-88"email": "jackson.evans@x.dummyjson.com"
-8},
-8{
-88"id": 21,
-88"first_name": "Madison",
-88"gender": "female",
-88"age": 27,
-88"lastName": "Collins",
-88"email": "madison.collins@x.dummyjson.com"
-8},
-8{
-88"id": 22,
-88"first_name": "Elijah",
-88"gender": "male",
-88"age": 34,
-88"lastName": "Stewart",
-88"email": "elijah.stewart@x.dummyjson.com"
-8},
-8{
-88"id": 23,
-88"first_name": "Chloe",
-88"gender": "female",
-88"age": 40,
-88"lastName": "Morales",
-88"email": "chloe.morales@x.dummyjson.com"
-8},
-8{
-88"id": 24,
-88"first_name": "Mateo",
-88"gender": "male",
-88"age": 31,
-88"lastName": "Nguyen",
-88"email": "mateo.nguyen@x.dummyjson.com"
-8},
-8{
-88"id": 25,
-88"first_name": "Harper",
-88"gender": "female",
-88"age": 28,
-88"lastName": "Kelly",
-88"email": "harper.kelly@x.dummyjson.com"
-8},
-8{
-88"id": 26,
-88"first_name": "Evelyn",
-88"gender": "female",
-88"age": 36,
-88"lastName": "Gonzalez",
-88"email": "evelyn.gonzalez@x.dummyjson.com"
-8},
-8{
-88"id": 27,
-88"first_name": "Daniel",
-88"gender": "male",
-88"age": 42,
-88"lastName": "Cook",
-88"email": "daniel.cook@x.dummyjson.com"
-8},
-8{
-88"id": 28,
-88"first_name": "Lily",
-88"gender": "female",
-88"age": 30,
-88"lastName": "Lee",
-88"email": "lily.lee@x.dummyjson.com"
-8},
-8{
-88"id": 29,
-88"first_name": "Henry",
-88"gender": "male",
-88"age": 39,
-88"lastName": "Hill",
-88"email": "henry.hill@x.dummyjson.com"
-8},
-8{
-88"id": 30,
-88"first_name": "Addison",
-88"gender": "female",
-88"age": 33,
-88"lastName": "Wright",
-88"email": "addison.wright@x.dummyjson.com"
-8}
-}
+[
+        {
+                "id": 1,
+                "first_name": "Emily",
+                "gender": "female",
+                "age": 29,
+                "lastName": "Johnson",
+                "email": "emily.johnson@x.dummyjson.com"
+        },
+        {
+                "id": 2,
+                "first_name": "Michael",
+                "gender": "male",
+                "age": 36,
+                "lastName": "Williams",
+                "email": "michael.williams@x.dummyjson.com"
+        },
+        {
+                "id": 3,
+                "first_name": "Sophia",
+                "gender": "female",
+                "age": 43,
+                "lastName": "Brown",
+                "email": "sophia.brown@x.dummyjson.com"
+        },
+        {
+                "id": 4,
+                "first_name": "James",
+                "gender": "male",
+                "age": 46,
+                "lastName": "Davis",
+                "email": "james.davis@x.dummyjson.com"
+        },
+        {
+                "id": 5,
+                "first_name": "Emma",
+                "gender": "female",
+                "age": 31,
+                "lastName": "Miller",
+                "email": "emma.miller@x.dummyjson.com"
+        },
+        {
+                "id": 6,
+                "first_name": "Olivia",
+                "gender": "female",
+                "age": 23,
+                "lastName": "Wilson",
+                "email": "olivia.wilson@x.dummyjson.com"
+        },
+        {
+                "id": 7,
+                "first_name": "Alexander",
+                "gender": "male",
+                "age": 39,
+                "lastName": "Jones",
+                "email": "alexander.jones@x.dummyjson.com"
+        },
+        {
+                "id": 8,
+                "first_name": "Ava",
+                "gender": "female",
+                "age": 28,
+                "lastName": "Taylor",
+                "email": "ava.taylor@x.dummyjson.com"
+        },
+        {
+                "id": 9,
+                "first_name": "Ethan",
+                "gender": "male",
+                "age": 34,
+                "lastName": "Martinez",
+                "email": "ethan.martinez@x.dummyjson.com"
+        },
+        {
+                "id": 10,
+                "first_name": "Isabella",
+                "gender": "female",
+                "age": 32,
+                "lastName": "Anderson",
+                "email": "isabella.anderson@x.dummyjson.com"
+        },
+        {
+                "id": 11,
+                "first_name": "Liam",
+                "gender": "male",
+                "age": 30,
+                "lastName": "Garcia",
+                "email": "liam.garcia@x.dummyjson.com"
+        },
+        {
+                "id": 12,
+                "first_name": "Mia",
+                "gender": "female",
+                "age": 25,
+                "lastName": "Rodriguez",
+                "email": "mia.rodriguez@x.dummyjson.com"
+        },
+        {
+                "id": 13,
+                "first_name": "Noah",
+                "gender": "male",
+                "age": 41,
+                "lastName": "Hernandez",
+                "email": "noah.hernandez@x.dummyjson.com"
+        },
+        {
+                "id": 14,
+                "first_name": "Charlotte",
+                "gender": "female",
+                "age": 37,
+                "lastName": "Lopez",
+                "email": "charlotte.lopez@x.dummyjson.com"
+        },
+        {
+                "id": 15,
+                "first_name": "William",
+                "gender": "male",
+                "age": 33,
+                "lastName": "Gonzalez",
+                "email": "william.gonzalez@x.dummyjson.com"
+        },
+        {
+                "id": 16,
+                "first_name": "Avery",
+                "gender": "female",
+                "age": 26,
+                "lastName": "Perez",
+                "email": "avery.perez@x.dummyjson.com"
+        },
+        {
+                "id": 17,
+                "first_name": "Evelyn",
+                "gender": "female",
+                "age": 38,
+                "lastName": "Sanchez",
+                "email": "evelyn.sanchez@x.dummyjson.com"
+        },
+        {
+                "id": 18,
+                "first_name": "Logan",
+                "gender": "male",
+                "age": 32,
+                "lastName": "Torres",
+                "email": "logan.torres@x.dummyjson.com"
+        },
+        {
+                "id": 19,
+                "first_name": "Abigail",
+                "gender": "female",
+                "age": 29,
+                "lastName": "Rivera",
+                "email": "abigail.rivera@x.dummyjson.com"
+        },
+        {
+                "id": 20,
+                "first_name": "Jackson",
+                "gender": "male",
+                "age": 35,
+                "lastName": "Evans",
+                "email": "jackson.evans@x.dummyjson.com"
+        },
+        {
+                "id": 21,
+                "first_name": "Madison",
+                "gender": "female",
+                "age": 27,
+                "lastName": "Collins",
+                "email": "madison.collins@x.dummyjson.com"
+        },
+        {
+                "id": 22,
+                "first_name": "Elijah",
+                "gender": "male",
+                "age": 34,
+                "lastName": "Stewart",
+                "email": "elijah.stewart@x.dummyjson.com"
+        },
+        {
+                "id": 23,
+                "first_name": "Chloe",
+                "gender": "female",
+                "age": 40,
+                "lastName": "Morales",
+                "email": "chloe.morales@x.dummyjson.com"
+        },
+        {
+                "id": 24,
+                "first_name": "Mateo",
+                "gender": "male",
+                "age": 31,
+                "lastName": "Nguyen",
+                "email": "mateo.nguyen@x.dummyjson.com"
+        },
+        {
+                "id": 25,
+                "first_name": "Harper",
+                "gender": "female",
+                "age": 28,
+                "lastName": "Kelly",
+                "email": "harper.kelly@x.dummyjson.com"
+        },
+        {
+                "id": 26,
+                "first_name": "Evelyn",
+                "gender": "female",
+                "age": 36,
+                "lastName": "Gonzalez",
+                "email": "evelyn.gonzalez@x.dummyjson.com"
+        },
+        {
+                "id": 27,
+                "first_name": "Daniel",
+                "gender": "male",
+                "age": 42,
+                "lastName": "Cook",
+                "email": "daniel.cook@x.dummyjson.com"
+        },
+        {
+                "id": 28,
+                "first_name": "Lily",
+                "gender": "female",
+                "age": 30,
+                "lastName": "Lee",
+                "email": "lily.lee@x.dummyjson.com"
+        },
+        {
+                "id": 29,
+                "first_name": "Henry",
+                "gender": "male",
+                "age": 39,
+                "lastName": "Hill",
+                "email": "henry.hill@x.dummyjson.com"
+        },
+        {
+                "id": 30,
+                "first_name": "Addison",
+                "gender": "female",
+                "age": 33,
+                "lastName": "Wright",
+                "email": "addison.wright@x.dummyjson.com"
+        }
+]

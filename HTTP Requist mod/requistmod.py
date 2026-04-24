@@ -14,9 +14,9 @@ Access type : Public
 
 
 
-data=requests.get('https://dummyjson.com/users')
-status_data=data.status_code
-json_data=data.json()
+dataa=requests.get('https://dummyjson.com/users')
+status_data=dataa.status_code
+json_data=dataa.json()
 emt_list=[]
 for i in json_data["users"]:
     emt_list.append({
@@ -31,7 +31,7 @@ for i in json_data["users"]:
       
 
 with open("using_re.json","w") as data:
-    json.dump(emt_list,data,indent="8")
+    json.dump(emt_list,data,indent=8)
 
 
     print("new fill will be created successfully")
