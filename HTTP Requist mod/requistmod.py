@@ -2,7 +2,7 @@
 
 #work with requist module
 
-import requests
+import requests,json
 
 """
 usage : featch all users
@@ -15,5 +15,30 @@ Access type : Public
 
 
 data=requests.get('https://dummyjson.com/users')
+status_data=data.status_code
+json_data=data.json()
+emt_list=[]
+for i in json_data["users"]:
+    emt_list.append({
+        "id":i['id'],
+        "first_name":i["firstName"],
+        "gender":i['gender'],
+        "age":i["age"],
+        "lastName":i['lastName'],
+        "email":i["email"]
+
+        })
+      
+
+with open("using_re.json","w") as data:
+    json.dump(emt_list,data,indent="4")
+
+
+    print("new fill will be created successfully")
+"""
+print("hello")
 
 print(data)
+print(status_data)
+for i in json_data['users']:
+    pass"""
