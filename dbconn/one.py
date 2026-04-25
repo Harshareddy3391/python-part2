@@ -1,7 +1,11 @@
 import mysql.connector
 
 
-connction=mysql.connector.connect(host="localhost",user="root",password="Harsha@345")
+connction=mysql.connector.connect(host="localhost",
+                                  user="root",
+                                  password="Harsha@345",
+                                  database="python_db"
+                                  )
 
 
 
@@ -15,4 +19,16 @@ else:
 
 
 
-cursor=
+cursor=connction.cursor()
+
+sql_statement='''
+ create table employee(
+ name varcar(32),
+ id int,
+ sal float
+ 
+ 
+ );
+
+'''
+
