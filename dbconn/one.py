@@ -32,6 +32,7 @@ sql_statement='''
 
 '''
 
+
 cursor.execute(sql_statement)
 connction.commit()
 
