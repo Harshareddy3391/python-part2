@@ -13,3 +13,6 @@ if connction.is_connected :
 else:
     print("fail")
 
+
+
+cursor=
