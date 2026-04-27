@@ -20,7 +20,11 @@ for i in a:
 
 
 
-a="*"
+#a="*"
 
-for i in range(6,1):
-    print("*")
+for i in range(5):
+
+    for j in range(5):
+      print("*",end=" ")
+
+    print()
