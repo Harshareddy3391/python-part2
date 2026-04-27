@@ -21,10 +21,17 @@ for i in a:
 
 
 #a="*"
+"""
+for i in range(6):
 
-for i in range(5):
-
-    for j in range(5):
+    for j in range(0,4):
       print("*",end=" ")
+    print()"""
 
-    print()
+"""
+for i in range(6,1,-1):
+    for j in range(i):
+
+        print("*",end="")
+
+    print()"""
