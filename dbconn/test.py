@@ -16,3 +16,11 @@ for i in a:
 
 
     print(a)    """
+
+
+
+
+a="*"
+
+for i in range(1,6):
+    print("*")
