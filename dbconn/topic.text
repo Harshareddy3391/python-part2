@@ -1,0 +1,97 @@
+1. Python Basics
+Topics
+Variables & Data Types
+Input/Output
+Type Casting
+Operators
+Conditional Statements
+Loops
+Functions
+Scope (global, local)
+Recursion
+Important Questions
+Difference between == and is
+Mutable vs Immutable
+List vs Tuple
+Deep copy vs Shallow copy
+Pass by value or reference in Python?
+2. Data Structures in Python
+Lists
+append
+extend
+insert
+slicing
+list comprehension
+Tuples
+immutability
+packing/unpacking
+Sets
+union
+intersection
+duplicates removal
+Dictionaries
+keys/values/items
+nested dicts
+dict comprehension
+Strings
+slicing
+anagram
+palindrome
+reverse string
+Interview Questions
+Remove duplicates from list
+Find frequency of characters
+Reverse words in string
+Find missing number
+3. Functions
+Topics
+*args
+**kwargs
+lambda
+map/filter/reduce
+decorators
+generators
+iterators
+Important Questions
+Difference between generator and iterator
+Why generators are memory efficient?
+What are decorators?
+Real-time decorator use case?
+Example
+def logger(func):
+    def wrapper():
+        print("Started")
+        func()
+        print("Ended")
+    return wrapper
+4. OOPs in Python
+Core Concepts
+Class & Object
+Constructor
+Inheritance
+Polymorphism
+Encapsulation
+Abstraction
+Advanced
+Method Overloading
+Method Overriding
+Multiple Inheritance
+MRO
+Super()
+Interview Questions
+Why use OOPs?
+Difference between abstraction & encapsulation
+What is MRO?
+Diamond problem?
+Class method vs static method
+5. Exception Handling
+Topics
+try
+except
+finally
+raise
+custom exceptions
+Questions
+Difference between Exception and Error
+Why use finally?
+How to create custom exception?
