@@ -64,7 +64,7 @@ def logger(func):
         func()
         print("Ended")
     return wrapper
-4. OOPs in Pythone
+4. OOPs in Python
 Core Concepts
 Class & Object
 Constructor
