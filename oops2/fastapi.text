@@ -1,0 +1,53 @@
+FastAPI Introduction
+FastAPI Installation
+Uvicorn Server
+Creating First API
+Routing
+GET API
+POST API
+PUT API
+DELETE API
+Path Parameters
+Query Parameters
+Request Body
+Response
+Pydantic Models
+Data Validation
+CRUD Operations
+APIRouter
+HTTP Status Codes
+HTTPException
+Swagger UI (/docs)
+ReDoc (/redoc)
+Dependency Injection (Depends)
+Middleware Basics
+CORS
+File Upload API
+Form Data
+Async and Await Basics
+SQLite Integration
+SQLAlchemy Basics
+Database Sessions
+Authentication Basics
+JWT Authentication
+Password Hashing
+Environment Variables (.env)
+Exception Handling
+API Testing using Postman
+Modular Project Structure
+Logging Basics
+
+
+
+Employee Task Management API
+
+This project is easy to explain in interviews and covers real backend concepts.
+
+Features
+User Login/Register
+Create Tasks
+Update Tasks
+Delete Tasks
+Get All Tasks
+JWT Authentication
+MongoDB or PostgreSQL connection

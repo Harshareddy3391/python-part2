@@ -10,7 +10,7 @@ Functions
 Scope (global, local)
 Recursion
 Important Questions
-Difference between == and is
+Difference between == and 
 Mutable vs Immutable
 List vs Tuple
 Deep copy vs Shallow copy
