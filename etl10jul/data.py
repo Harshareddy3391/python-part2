@@ -1,4 +1,4 @@
-import csv,os,requests
+import csv,os,requests,mysql.connector
 
 
 
@@ -36,6 +36,27 @@ if os.path.exists("data.csv"):
         write=csv.writer(file1)
         write.writerow("id","titile",'price',"rating")
 
-print("new csv file created susceefull...")
+        print("new csv file created susceefull...")
+else:
+    print("file created already..")
 
 
+#load data into sql db
+
+try:
+
+    dbconn=mysql.connector.connect(
+    host='localhost',name="root",password="Harsha@345",database="jul10"
+    )
+    cursor=dbconn.cursor()
+    sql_st="""
+    insert into products(id,name,price,rating)values(%s,%s,%s,%s);"""
+    cursor.executemany(sql_st,beauty_products)
+    dbconn.commit()
+    print("data inserted into database...")
+except Exception as e:
+    print("hel")
+
+finally:
+    cursor.close()
+    dbconn.close()
