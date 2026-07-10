@@ -32,9 +32,9 @@ for product in products_data:
 
 #load data into csv file
 if os.path.exists("data.csv"):
-    with open("data.csv","w",newline=" ") is file1:
+    with open("data.csv","w",newline="") as file1:
         write=csv.writer(file1)
-        write.writerow("id","titile",'price',"rating")
+        write.writerow(("id","titile",'price',"rating"))
 
         print("new csv file created susceefull...")
 else:
