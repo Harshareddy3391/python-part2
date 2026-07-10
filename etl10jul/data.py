@@ -1,4 +1,4 @@
-import csv,os,requests,mysql.connector
+import csv,os,requests,mysql.connector,pymongo,json
 
 
 
@@ -31,7 +31,7 @@ for product in products_data:
 
 
 #load data into csv file
-if os.path.exists("data.csv"):
+if not os.path.exists("data.csv"):
     with open("data.csv","w",newline="") as file1:
         write=csv.writer(file1)
         write.writerow(("id","titile",'price',"rating"))
@@ -60,3 +60,23 @@ except Exception as e:
 finally:
     cursor.close()
     dbconn.close()
+
+
+#load data into json file
+
+with open("data.json","w") as file2:
+    json.dump(beauty_products_json_formate,file2)
+    print("json file created sucessfully")
+
+
+#load data into mongodb
+try:
+
+    dbconnm=pymongo.MongoClient("mongodb://localhost:27017/")
+    db=dbconnm['dbten']
+    db_col=db['products_data']
+    db_col.insert_many(beauty_products_json_formate)
+    print("insrted data into mongo db")
+except Exception as ex:
+    print(ex)
+ 
