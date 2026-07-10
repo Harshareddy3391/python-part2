@@ -46,7 +46,7 @@ else:
 try:
 
     dbconn=mysql.connector.connect(
-    host='localhost',name="root",password="Harsha@345",database="jul10"
+    host='localhost',user="root",password="Harsha@345",database="jul10"
     )
     cursor=dbconn.cursor()
     sql_st="""
