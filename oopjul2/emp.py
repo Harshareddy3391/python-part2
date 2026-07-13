@@ -14,7 +14,7 @@ class Employee:
 
 e1=Employee("Harsha","Vardhan",100000)
 print(e1.inc(20))
-
+e1.pa=21
 print(e1.__dict__)
 print(e1.full_name())
  
