@@ -10,10 +10,11 @@ class Employee:
         self.full_name_=f"{self.name} {self.last}"
         return self.full_name_
     def inc(self,p):
-        self.pay=int(self.pay * (1+p/100))
+        self.pay+=int(self.pay * 20/100)
 
 e1=Employee("Harsha","Vardhan",100000)
+print(e1.inc(20))
 
 print(e1.__dict__)
 print(e1.full_name())
-print(e1.inc(2))
+ 
